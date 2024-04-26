@@ -2,7 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 
 const Project = (project) => {
-  const {title, description, tags, imageUrl} = project;
+  const {title, description, tags, imageUrl,linkUrl} = project;
   return (
     <div className='group mb-3 sm:mb-8 last:mb-0'>
       {/* flex flex-col gap-5 mb-7 w-full md:even:flex-row-reverse md:odd:flex-row  items-center md:items-start py-2 max-w-[50rem] bg-white shadow-lg rounded-lg shadow-black/20 justify-between px-2 dark:text-white dark:bg-white/10 dark:hover:bg-white/20 */}
@@ -35,7 +35,7 @@ const Project = (project) => {
 
             <div className="flex items-center justify-center gap-2">
               <a
-                href="https://github.com/Bhumiba01/crud-operation"
+                href={linkUrl}
                 target="_blank"
                 className="bg-black text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-black active:scale-105 cursor-pointer transition border border-black/10"
               >

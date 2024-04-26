@@ -36,7 +36,7 @@ const Header = () => {
             <button className='sm:hidden cursor-pointer fixed top-3  right-2' onClick={toggleNavbar}>{isOpen || <HiMenuAlt3 className='h-9 w-9'/>}
             </button>
             {isOpen && (
-              <motion.div className='sm:hidden fixed top-0 right-0 h-1/2 rounded-md w-1/2 bg-[#f3f4f6]  bg-opacity-80 dark:bg-black dark:bg-opacity-80 z-50 p-4'
+              <motion.div className='sm:hidden fixed top-0 right-0 h-80 rounded-md w-1/2 bg-[#f3f4f6]  bg-opacity-80 dark:bg-black dark:bg-opacity-80 z-50 p-4'
               variants={{
                 hidden: { opacity: 0, x: 1000},
                 visible: {opacity:1, x : 0}
