@@ -4,6 +4,7 @@ import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import {motion} from 'framer-motion'
 import introName from '../assets/introname1.png'
+import ResumePdf from '../assets/Bhumiba_Padhiyar.pdf'
 const Intro = () => {
   return (
     <div className='mt-24 mb-60 sm:mb-80 max-w-[60rem] flex items-center justify-center'>
@@ -29,7 +30,7 @@ const Intro = () => {
               Contact me here
               <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
             </Link>
-            <a className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10" href='/Bhumiba_Padhiyar.pdf'  download="Bhumiba_Padhiyar.pdf">
+            <a className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10" href={ResumePdf}  download="Bhumiba_Padhiyar.pdf">
               Download CV
               <HiDownload  className="opacity-60 group-hover:translate-y-1 transition" />
             </a>
