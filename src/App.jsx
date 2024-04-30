@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from "react"
-import Header from "./components/header"
+import {useState } from "react"
+
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -8,7 +8,8 @@ import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import { MdNightlight } from "react-icons/md";
 import { MdOutlineWbSunny } from "react-icons/md";
-import { motion, useInView, useAnimation } from 'framer-motion'
+import { motion} from 'framer-motion'
+import Header from "./components/header";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
