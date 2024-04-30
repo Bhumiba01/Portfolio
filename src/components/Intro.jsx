@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsGithub, BsLinkedin, BsTwitter, BsTwitterX } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import {motion} from 'framer-motion'
 import introName from '../assets/introname1.png'
@@ -40,6 +40,9 @@ const Intro = () => {
               </a>
               <a href="https://github.com/Bhumiba01" target='_blank' className='bg-white p-2 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white'>
                 <BsGithub/>
+              </a>
+              <a href="https://twitter.com/BhumibaP" target='_blank' className='bg-white p-2 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white'>
+                <BsTwitterX/>
               </a>
             </div>
           </motion.div>
