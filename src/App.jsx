@@ -9,7 +9,7 @@ import Skills from "./components/Skills";
 import { MdNightlight } from "react-icons/md";
 import { MdOutlineWbSunny } from "react-icons/md";
 import { motion} from 'framer-motion'
-import Header from "./components/header";
+import Header from "./components/Header";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);

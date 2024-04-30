@@ -4,6 +4,7 @@ import { Link } from 'react-scroll'
 import { motion } from 'framer-motion';
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeLink, setActiveLink] = useState('');
@@ -15,9 +16,8 @@ const Header = () => {
     setActiveLink(link);
     setIsOpen(true);
   }
-
   return (
-      <motion.div className='fixed z-[999]  h-24 right-0 left-0 top-0 text-end sm:flex sm:justify-around sm:items-center sm:p-4' 
+    <motion.div className='fixed z-[999]  h-24 right-0 left-0 top-0 text-end sm:flex sm:justify-around sm:items-center sm:p-4' 
       variants={{
         hidden: { opacity: 0, x: -1000},
         visible: {opacity:1, x : 0}
