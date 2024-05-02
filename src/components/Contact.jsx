@@ -11,11 +11,10 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_nutjiie', 'template_p63d6wb', form.current, 'OZY2EJwStXKGw6FH_')
+    emailjs.sendForm('service_wontucb', 'template_p63d6wb', form.current, 'qjFC44KXCFURvwL5E')
       .then((result) => {
-          console.log(result.text);
-          console.log("message sent");
-          e.target.reset();
+        form.current.reset();
+        e.target
       }, (error) => {
           console.log(error.text);
       });

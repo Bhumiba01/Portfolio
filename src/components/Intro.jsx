@@ -18,7 +18,7 @@ const Intro = () => {
             <span className='max-w-[50rem] '>Hello, I'm <span className='underline'>Bhumi Padhiyar,</span> </span>
             a <span className="font-bold underline">full-stack developer.</span> I enjoy
             building <span className="italic">web apps and everything in between</span>.
-            <span>I am currently looking for a </span> <span className="font-medium">full-time position</span> as a software
+            <span>I am currently looking for a </span> <span className="font-medium">full-time position</span> as a full-stack
             developer.
           </motion.h1>
           <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium'

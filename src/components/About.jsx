@@ -16,23 +16,13 @@ const About = () => {
         About Me
       </h2>
       <p className='mb-3'>
-       I graduated in field
-        <span className="font-medium">Computer Science & Engineering</span>, from Atmiya University. 
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+      I graduated in Computer Science & Engineering from Atmiya University.
+        <span className="font-medium"> My favorite aspect of programming is problem-solving. I love the feeling of finally figuring out a solution to a problem. My core stack includes React.js and Next.js for frontend development, and Python, Node.js, Express.js for backend development, along with MySQL for databases. I'm also familiar with TypeScript</span>
         <span className="font-medium">
-          for frontend Reactjs, Nextjs and for backend python,nodejs,expressjs and for database mysql
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I'm always eager to learn new technologies. Currently, I'm seeking a full-time position as a full-stack developer.</span>
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy reading books, watching movies. I also enjoy{" "}
-        <span className="font-medium">learning new things.</span>
+        <span className="italic">Outside of coding, I enjoy reading books and watching movies, as well as learning new things.</span>
       </p>
     </motion.div>
   )
